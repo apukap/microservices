@@ -12,21 +12,17 @@
 	<artifactId>lms-parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>lms-parent</name>
-	<description>Library Managemnet Project for TCS hackathon</description>
+	<description>Library Managemnet Project for hackathon</description>
 
 	<properties>
 		<java.version>1.8</java.version>
-		<vaadin.version>14.1.17</vaadin.version>
+		<vaadin.version>8.0.5</vaadin.version>
 	</properties>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
